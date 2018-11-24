@@ -24,6 +24,8 @@ Data -> Delete duplicates -> vectorization with stop words, stemming and tokeniz
 
 ![alt text](https://github.com/Vinaddy/K.AI--Take-home/blob/master/tf-idf_elbow.png)
 
+![alt text](https://github.com/Vinaddy/K.AI--Take-home/blob/master/tf-idf-pca.png) 
+
 <h5>Inference:</h5>
 The elbow curve tells us that the optimal number of clusters are 5,6 or 7, and When we go through the word groupings we understand that the data is talking about the following queries
 
@@ -42,7 +44,11 @@ Data -> Creating a corpus -> tokenizing the sentences -> convert to list -> Crea
 -> Saving the trained data -> plotting the k-means elbow curve -> identifying cluster numbers -> Hyperparameter tuning -> Repeat -> Plotting clusters using different dimentionality reduction and visualization techniques -> proving word similarities using the cosine similarity function -> Inference
 
 
-![alt text](https://github.com/Vinaddy/K.AI--Take-home/blob/master/w2v_elbow.png)
+![alt text](https://github.com/Vinaddy/K.AI--Take-home/blob/master/w2v_elbow.png) 
+
+![alt text](https://github.com/Vinaddy/K.AI--Take-home/blob/master/w2v-pca.png) 
+
+
 
 The elbow curve tells us that the optimal number of clusters are 4,5. Plotting these cluster values shows us a clear distiction in the intents. Visualization from the Word2Vec model shows us how the model is more capable of differtiating between noisy data points, due to its nature of going deeper into the dataset and creating contexts based on their semantic meanings.
 
