@@ -5,9 +5,9 @@ Identify important clusters and assign a suitable name to non-noise clusters.
 
 <h3>Solution:</h2>
 
-Unsupervised models used for generating word vectors: Word2vec and Tf-IDF
+Unsupervised models used for generating word vectors: Word2vec and TF-IDF
 
-The data is taken from a conversation with a Bank's chatbot and the clustered identified are:
+The data is taken from a conversation with a Bank's chatbot and the clusters identified are:
   
 <li>Loan requirement questions</li>
 <li>Asking the bot to clear bills</li>
@@ -54,4 +54,4 @@ The elbow curve tells us that the optimal number of clusters are 4,5. Plotting t
 
 The results of the word2vec technique combined with the TF-IDF word embedding technique, provides a clear conclusion to the number of intents and clusters we have in our data. It solidifies our understnading of the clusters(5) and their names mentioned above.
 
-​
+<h4> the unsupervised learning technique that performs best for this problems is Word2Vec using K-means clustering with PCA and T-SNE for visualization</h4>
