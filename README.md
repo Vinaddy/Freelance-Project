@@ -1,17 +1,16 @@
 # K.AI--Take-home
-Problem statement: With the enclosed data, cluster the utterances using unsupervised learning techniques and explain the reasons for choice of algorithms you use. Assume there is noise in data. Identify important clusters and assign a suitable name to non-noise clusters.
 
-##Solution:
+<h3>Solution:</h2>
 
 Unsupervised models used for generating word vectors: Word2vec and Tf-IDF
 
 Clusters identified from the Bank chatbot conversation data:
   
-<li> 1.Loan requirement questions</li>
-<li>2.Asking the bot to clear bills</li>
-<li>3.Outstanding balance-check questions</li>
-<li>4.Money Transfer queries</li>
-<li>5.FAQs</li>
+<li>Loan requirement questions</li>
+<li>Asking the bot to clear bills</li>
+<li>Outstanding balance-check questions</li>
+<li>Money Transfer queries</li>
+<li>FAQs</li>
 
 The Inference for all approaches is mentioned at the bottom of the repective ipynb files
 
