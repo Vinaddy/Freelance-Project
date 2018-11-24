@@ -22,8 +22,7 @@ The data is taken from a conversation with a Bank's chatbot and the clustered id
 
 Data -> Delete duplicates -> vectorization with stop words, stemming and tokenization -> Creation of Elbow plot -> identifying clusters -> PLotting clusters using different dimentionality reduction and visualization techniques -> Grouping words by their respective clusters -> Inference
 
-<img src="http://kavita-ganesan.com/wp-content/uploads/2018/01/wood-cube-abc-cube-letters-48898-1.jpeg",width = "300",height="300" />
-
+![alt text](https://github.com/Vinaddy/K.AI--Take-home/blob/master/tf-idf_elbow.png)
 
 <h5>Inference:</h5>
 The elbow curve tells us that the optimal number of clusters are 5,6 or 7, and When we go through the word groupings we understand that the data is talking about the following queries
@@ -41,8 +40,10 @@ According to the TF-IDF word embedding technique which we just used, these five 
 
 Data -> Creating a corpus -> tokenizing the sentences -> convert to list -> Creating the Word2Vec model -> Training the model 
 -> Saving the trained data -> plotting the k-means elbow curve -> identifying cluster numbers -> Hyperparameter tuning -> Repeat -> Plotting clusters using different dimentionality reduction and visualization techniques -> proving word similarities using the cosine similarity function -> Inference
-http://localhost:8889/view/Documents/Kore.ai%20assignment/Final%20code/w2v_elbow.png
-<h5>Inference:</h5>
+
+
+![alt text](https://github.com/Vinaddy/K.AI--Take-home/blob/master/w2v_elbow.png)
+
 The elbow curve tells us that the optimal number of clusters are 4,5. Plotting these cluster values shows us a clear distiction in the intents. Visualization from the Word2Vec model shows us how the model is more capable of differtiating between noisy data points, due to its nature of going deeper into the dataset and creating contexts based on their semantic meanings.
 
 The results of the word2vec technique combined with the TF-IDF word embedding technique, provides a clear conclusion to the number of intents and clusters we have in our data. It solidifies our understnading of the clusters(5) and their names mentioned above.
