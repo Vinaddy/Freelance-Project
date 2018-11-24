@@ -1,8 +1,26 @@
 # K.AI--Take-home
 Problem statement: With the enclosed data, cluster the utterances using unsupervised learning techniques and explain the reasons for choice of algorithms you use. Assume there is noise in data. Identify important clusters and assign a suitable name to non-noise clusters.
 
+##Solution:
 
-Inference for all approaches is mentioned at the bottom of the repective ipynb files
+Unsupervised models used for generating word vectors: Word2vec and Tf-IDF
+
+Clusters identified from the Bank chatbot conversation data:
+  
+<li> 1.Loan requirement questions</li>
+<li>2.Asking the bot to clear bills</li>
+<li>3.Outstanding balance-check questions</li>
+<li>4.Money Transfer queries</li>
+<li>5.FAQs</li>
+
+The Inference for all approaches is mentioned at the bottom of the repective ipynb files
+
+
+##TF-IDF with K-means pipeline :
+
+Data -> Delete duplicates -> vectorization with stop words, stemming and tokenization -> Creation of Elbow plot -> identifying clusters -> PLotting clusters using different dimentionality reduction and visualization techniques -> Grouping words by their respective clusters -> Inference
+
+
 
 Tf-idf
 Inference:
